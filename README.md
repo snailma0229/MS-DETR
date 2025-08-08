@@ -1,12 +1,13 @@
 <h1 align="center">MS-DETR: Towards Effective Video Moment Retrieval and Highlight Detection by Joint Motion-Semantic Learning</h1>
 
 <div align="center">
-    <strong>Hongxu Ma</strong><sup> 1,2*†</sup>&emsp;
+    <strong>Hongxu Ma</strong><sup> 1,2*</sup>&emsp;
     <strong>Guanshuo Wang</strong><sup> 2*</sup>&emsp;
     <strong>Fufu Yu</strong><sup> 2</sup>&emsp;
     <strong>Qiong Jia</strong><sup> 2</sup>&emsp;
-    <strong>Shouhong Ding</strong><sup> 2</sup>&emsp;
+    <strong>Shouhong Ding</strong><sup> 2†</sup>&emsp;
 </div>
+
 
 <div align='center'>
     <sup>1 </sup>Fudan University&emsp; <sup>2 </sup>Tencent Youtu Lab&emsp; 
@@ -22,5 +23,10 @@
 
 If you find MS-DETR useful for your project or research, welcome to 🌟 this repo and cite our work using the following BibTeX:
 ```bibtex
-waiting
+@article{ma2025msdetreffectivevideomoment,
+  author  = {Ma, Hongxu and Wang, Guanshuo and Yu, Fufu and Jia, Qiong and Ding, Shouhong},
+  title   = {MS-DETR: Towards Effective Video Moment Retrieval and Highlight Detection by Joint Motion-Semantic Learning},
+  journal = {arXiv preprint arXiv:2507.12062},
+  year    = {2025}
+}
 ```
