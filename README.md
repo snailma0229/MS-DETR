@@ -26,7 +26,7 @@
 - Supports modular ablations via command-line args; see [ms_detr/config.py](ms_detr/config.py) for argument descriptions.
 - Coming soon: auxiliary corpus generation code and visualization toolkit (released progressively).
 - Paper: [arXiv:2507.12062](https://arxiv.org/abs/2507.12062)
-- 
+  
 ## Prerequisites
 
 We follow the environment requirements of the QD-DETR baseline. Please refer to their repo for background and dataset preparation details: [QD-DETR (CVPR'23)](https://github.com/wjun0830/QD-DETR).
