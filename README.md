@@ -62,11 +62,11 @@ python -c "import torch; import numpy as np; print('torch', torch.__version__, '
 Notes:
 - Keep PyTorch/torchvision versions consistent (e.g., torch==1.9.0 with torchvision==0.10.0).
 - If using CUDA, ensure your local CUDA driver is compatible with the selected wheel.
- 
+
 ## QVHighlights
 
 ### Training
-Note: Update the data paths in `ms_detr/scripts/train.sh` to your local paths. Download the provided data and features (including auxiliary data) from [data & features link](https://drive.google.com/drive/folders/1LAiohbHU1OaR_-NqmRQo-qkIzNoXhlyK?usp=drive_link). We will progressively release code to generate these JSONs and features.
+Note: Update the data paths in `ms_detr/scripts/train.sh` to your local paths. Download the provided data and features (including auxiliary data) from [data & features link](https://drive.google.com/drive/folders/1dAuAGenEnmNsNZwY-nZX3UP1oA326v2b?usp=sharing). We will progressively release code to generate these JSONs and features.
 
 Training with (only video) and (video + audio) can be executed by running the shell below (following the setup style of [QD-DETR](https://github.com/wjun0830/QD-DETR)):
 
@@ -92,7 +92,7 @@ where `{direc}` is the path to the saved checkpoint directory. For more details 
 
 ### Roadmap
 We will progressively release training and evaluation code for additional datasets.
- 
+
 ## Citation 💖
 
 If you find MS-DETR useful for your project or research, welcome to 🌟 this repo and cite our work using the following BibTeX:
