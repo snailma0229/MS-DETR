@@ -21,7 +21,12 @@
 </div>
 
 ## Updates & News
-### 2025-07-16 Initial Code Release (v0.1.0)
+
+### 2025-09-26 Updates
+- Google Drive data & features link permissions updated; the link is now public for everyone: [data & features link](https://drive.google.com/drive/folders/1dAuAGenEnmNsNZwY-nZX3UP1oA326v2b?usp=sharing).
+- Auxiliary data generation code and visualization toolkit are planned to be uploaded within two weeks.
+
+### 2025-09-03 Initial Code Release (v0.1.0)
 - Includes core training/inference code for MR/HD, evaluation utilities, and example scripts.
 - Supports modular ablations via command-line args; see [ms_detr/config.py](ms_detr/config.py) for argument descriptions.
 - Coming soon: auxiliary corpus generation code and visualization toolkit (released progressively).
